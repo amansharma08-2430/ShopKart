@@ -111,6 +111,7 @@ const Header=()=>{
         </div>
         <img
           src={BoyImage}
+          alt="BoyImage"
           className="absolute left-[899px] top-[92px] w-[320px] h-[692px]"
         />
         {/* <div className="absolute max-w-[933px] h-[354px] top-[303px] left-[447px] bg-[#F07E15] w-full"></div> */}
