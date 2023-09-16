@@ -9,7 +9,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 function ProductSlider({ products }) {
-  const isMobile = window.innerWidth < 768;
   const settings = {
     dots: true,
     infinite: true,
