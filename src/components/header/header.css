@@ -1,17 +1,7 @@
-.headerBox{
-    max-width: 1440px;
-    height:659px;
-    background-color: black;
+.container {
+    padding: 40px;
+    background: #419be0;
 }
-.header-top{
-    padding: 10px 40px 10px 40px;
-    display: flex;
-    justify-content: space-between;
-}
-.policy{
-    display: flex;
-}
-.image-truck{
-    height: 12.9px;
-    width: 21px;
+.slick-slide{
+    width: 320px !important
 }
