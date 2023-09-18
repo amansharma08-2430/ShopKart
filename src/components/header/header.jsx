@@ -157,7 +157,7 @@ const Header = () => {
       </div>
       <img
         src={Star}
-        alt="Star Image"
+        alt="StarImage"
         className="absolute z-5 right-0 md:right-[3%] top-[18%] md:top-[14%]"
       />
       <img
