@@ -5,6 +5,7 @@ import Facebook from "../../assets/Facebook.png";
 import LinkedIn from "../../assets/LinkedIn.png";
 import Twitter from "../../assets/Twitter.png";
 import BoyImage from "../../assets/BoyImage.png";
+import Star from "../../assets/Star 3.png";
 import { useState } from "react";
 const Header = () => {
   const navbar = [
@@ -143,7 +144,7 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <div className="pt-[137px] flex-col">
+      <div className="relative pt-[137px] flex-col z-20">
         <div className="font-syne text-[60px] md:text-[100px] lg:text-[130px] leading-[76%] text-[#FFF]  pl-[20px] lg:pl-[115px]">
           Fresh
         </div>
@@ -155,15 +156,21 @@ const Header = () => {
         </div>
       </div>
       <img
+        src={Star}
+        alt="Star Image"
+        className="absolute z-5 right-0 md:right-[3%] top-[18%] md:top-[14%]"
+      />
+      <img
         src={BoyImage}
         alt="BoyImage"
-        className="absolute hidden md:block left-[30%] sm:left-[40%] md:left-[60%] lg:left-[65%] h-[70%]  top-[20%]"
+        className="absolute z-10 right-0 md:right-[5%] h-[80%] top-[20%]"
       />
+      <div className="absolute top-[40%] w-[950px] h-[300px] bg-[#F07E15] z-1 right-0"></div>
       {/* <div className="absolute max-w-[933px] h-[354px] top-[303px] left-[447px] bg-[#F07E15] w-full"></div> */}
       <div className="flex pt-[57px]">
         <div className="max-w-[300px] md:max-w-[976px] border-t border-white w-full">
-          <div className="flex pb-[70px] pt-[30px] gap-[5px] cursor-pointer">
-            <div className="pl-[115px] text-[#FFF] font-work text-[18px] font-normal">
+          <div className="relative flex pb-[70px] pt-[30px] gap-[5px] cursor-pointer z-30">
+            <div className="pl-[115px] text-[#FFF] font-work text-[18px] font-normal underline">
               See more
             </div>
             <div className="mt-[8px]">

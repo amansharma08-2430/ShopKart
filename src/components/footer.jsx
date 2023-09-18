@@ -2,13 +2,13 @@ import './footer.css';
 const Footer=()=>{
     return (
       <div className="w-full backgroun-img mt-[50px]">
-        <div className="md:flex md:flex-row flex-col md:pl-[103px] pt-[80px] gap-[100px] justify-center">
+        <div className="md:flex md:flex-row flex-col md:pl-[103px] pt-[80px] gap-[100px]">
           <div className="flex flex-col gap-[20px] w-full">
-            <div className="font-syne text-[26px] font-bold text-[#ffffff80] text-center md:text-normal">
+            <div className="font-syne text-[26px] font-bold text-[#ffffff80]">
               Newslleter
             </div>
             <div className="flex flex-col w-full">
-              <div className="font-work text-[18px] font-normal text-[#ffffff80] w-full text-center">
+              <div className="font-work text-[18px] font-normal text-[#ffffff80] w-full">
                 Get news about articles and updates in your inbox.
               </div>
             </div>
